@@ -4,6 +4,9 @@ USER_YAML   = File.join(File.dirname(__FILE__), 'Environment.yaml')
 require 'yaml'
 require 'deep_merge'
 
+master_data = {}
+user_data = {}
+
 if File.readable?(MASTER_YAML)
   master_data = YAML.load_file(MASTER_YAML)
 end
