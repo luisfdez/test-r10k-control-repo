@@ -1,3 +1,6 @@
 modules:
   monolithic:
     branch: 'testing'
+  concat:
+    branch: 'master'
+    git: https://github.com/puppetlabs/puppetlabs-concat.git
