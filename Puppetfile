@@ -1,5 +1,6 @@
 moduledir 'modules'
-mod foreman,
+
+mod 'foreman',
   :git    => 'https://github.com/theforeman/puppet-foreman.git',
   :branch => 'master'
 
